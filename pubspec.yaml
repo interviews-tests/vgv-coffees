@@ -1,0 +1,32 @@
+name: vgvcoffees
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http:
+  path_provider:
+  bloc:
+  flutter_bloc:
+  equatable:
+  shared_preferences:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons:
+  flutter_native_splash:
+  bloc_test:
+  mocktail:
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
