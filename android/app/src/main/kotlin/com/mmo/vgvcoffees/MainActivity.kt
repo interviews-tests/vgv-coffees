@@ -1,4 +1,4 @@
-package com.mmo.vgvcoffees.vgvcoffees
+package com.mmo.vgvcoffees
 
 import io.flutter.embedding.android.FlutterActivity
 

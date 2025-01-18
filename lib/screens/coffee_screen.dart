@@ -12,7 +12,7 @@ class CoffeeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    BlocProvider.of<CoffeeBloc>(context).add(FetchCoffee());
+    // BlocProvider.of<CoffeeBloc>(context).add(FetchCoffee());
     return Scaffold(
       backgroundColor: Colors.brown,
       floatingActionButton: FloatingActionButton(
